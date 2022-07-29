@@ -23,11 +23,12 @@ h3 {
 
 .recipes-list {
   margin-left: 0;
+  margin-right: 200px;
   padding: 0;
   list-style-type: none;
   font-size: 20px;
   line-height: 30px;
-
+  display: inline-table;
 }
 
 /* css for divider panels */
@@ -37,7 +38,7 @@ h3 {
   text-align: center;
   vertical-align: middle;
   line-height: 120px;
-  background-color: lightblue;
+  background-color: #d4ebf2;
   width: 100%;
   height: 120px;
 }
@@ -66,7 +67,7 @@ h3 {
 .content {
   padding: 0 18px;
   font-size: 15px;
-  width: 500px;
+  width: 300px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;

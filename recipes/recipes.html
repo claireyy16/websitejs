@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script defer src="recipes.js"></script>
+        <link rel="stylesheet" href="recipes.css">
+        <link rel="stylesheet" href="../style.css">
+        <title>Recipe Book</title>
+    </head>
+
+    <nav>   
+        <ul class="menu-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+        </ul>
+    </nav>
+    
+    <!-- START OF RECIPES SITE -->
+
+test of github 
+
+
+    <h1>Collection of some of my simpler recipes</h1>
+        
+    <body>
+        
+        <h3>Recipe List & Links</h3>
+
+        Click on the buttons to find recipe information
+        
+        <div></div>
+        Back to <a href="../index.html">home</a>
+        <!--using "../" makes the ref search up one level in the directory (outside of the subpages folder)-->
+
+		<!-- BREAKFAST SECTION -->
+
+        <div class="recipes-divider">Breakfast</div>
+
+		<dl class="recipes-list">
+			<dt>French Toast</dt>
+			<!-- button for ingredients -->
+			<dd><button type="button" class="collapsible">Ingredients</button>
+				<div class="content">
+					<p>Brioche bread</p>
+				</div>
+			</dd>
+			<!-- button for directions -->
+			<dd><button type="button" class="collapsible">Directions</button>
+				<div class="content">
+				<p>Combine bread dipping mix</p>
+				</div>
+			</dd>
+			<!-- button for image -->
+			<dd><button type="button" class="collapsible">Picture</button>
+				<div class="collapsibleImage">
+					<a id="toastpic" href="subpages/toast.html">
+						<img src="../subpages/pictures/french toast.jpg" alt="french toast" width="300">
+					</a>
+				</div>
+			</dd>
+		</dl>
+
+		<!-- DINNER SECTION -->
+
+		<div class="recipes-divider">Dinner</div>
+
+		<dl class="recipes-list">
+			<dt>Salmon Avocado Salad</dt>
+			<!-- button for ingredients -->
+			<dd><button type="button" class="collapsible">Ingredients</button>
+				<div class="content">
+					<p>avocado, salmon</p>
+				</div>
+			</dd>
+			<!-- button for directions -->
+			<dd><button type="button" class="collapsible">Directions</button>
+				<div class="content">
+				<p>Chop up all raw salad ingredients</p>
+				</div>
+			</dd>
+			<!-- button for image -->
+			<dd><button type="button" class="collapsible">Picture</button>
+				<div class="collapsibleImage">
+					<a id="salmonpic" href="subpages/salmonsalad.html">
+						<img src="../subpages/pictures/salmon salad.jpg" alt="salmon salad" width="300">
+					</a>
+				</div>
+			</dd>
+		</dl>
+
+		<!-- DESSERT SECTION -->
+
+		<div class="recipes-divider">Dessert</div>
+
+		<dl class ="recipes-list">
+            <!-- building collapsible buttons for the steps -->
+            <dt>Blueberry Pie</dt>
+            <!-- button for ingredients -->    
+                <dd><button type="button" class="collapsible">Ingredients</button>
+                    <div class="content">
+                        <p>40 oz frozen blueberries</p>
+                    </div>
+                </dd>
+                <!-- button for directions -->
+                <dd><button type="button" class="collapsible">Directions</button>
+                    <div class="content">
+                    <p>Mix blueberries, lemon juice, sugar, and cornstarch</p>
+                    </div>
+                </dd>
+                <!-- button for image -->
+                <dd><button type="button" class="collapsible">Picture</button>
+                    <div class="collapsibleImage">
+                        <a id="blueberrypic" href="subpages/bluepie.html">
+                            <img src="../subpages/pictures/blueberry pie.jpg" alt="blueberry pie" width="300">
+                        </a>
+                    </div>
+                </dd>
+        </dl>
+		<dl class="recipes-list">
+            <dt>Oreo Truffles</dt>
+            <!-- button for ingredients -->
+                <dd><button type="button" class="collapsible">Ingredients</button>
+                    <div class="content">
+                        <p>Oreos</p>
+                    </div>
+                </dd>
+                <!-- button for directions -->
+                <dd><button type="button" class="collapsible">Directions</button>
+                    <div class="content">
+                    <p>Crush oreos and cream cheese together</p>
+                    </div>
+                </dd>
+                <!-- button for image -->
+                <dd><button type="button" class="collapsible">Picture</button>
+                    <div class="collapsibleImage">
+                        <a id="trufflepic" href="subpages/truffles.html">
+                            <img src="../subpages/pictures/oreo truffle.JPG" alt="oreo truffles" width="300">
+                        </a>
+                    </div>
+                </dd>
+		</dl>
+    </body>
+</html>

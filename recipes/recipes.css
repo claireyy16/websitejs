@@ -1,0 +1,80 @@
+/* css for everything */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* css for menu + recipes list */
+
+.menu-list li {
+  display: inline-block;
+  list-style: none;
+  line-height: 80px;
+}
+
+.menu-list li a {
+  padding: 0 40px;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.recipes-list {
+  margin-left: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+/* css for divider panels */
+
+.recipes-divider {
+  margin: 20px 0px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 120px;
+  background-color: lightblue;
+  width: 100%;
+  height: 120px;
+}
+
+/* style the button that is used to open and close the collapsible content */
+.collapsible {
+  margin: 4px;
+  margin-left: 0;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 12px;
+  width: 200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  font-size: 15px;
+  width: 500px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsibleImage {
+  padding: 0 18 px;
+  width: 500 px;
+  display: none;
+  overflow: hidden;
+}

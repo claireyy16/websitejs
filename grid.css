@@ -1,8 +1,13 @@
+:root {
+  --main-radius: 0px;
+  --main-padding: 0px;
+}
+
 .container {
   display: grid;
   height: 100vh;
   grid-template-columns: 0.5fr 1fr 1fr 1fr;
-  grid-template-rows: 0.3fr 1.5fr 1.2fr 0.8fr;
+  grid-template-rows: 0.1fr 1.5fr 1.2fr 0.8fr;
   grid-template-areas:
 		"nav nav nav nav"
     "sidebar main main main"

@@ -5,7 +5,22 @@
 }
 
 /* css for grid layout */
+/* im not sure this is working 
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, .75fr) 1fr .75fr 1fr .75fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 18px;
+  grid-template-areas: 
+    "nav nav nav nav";
+}
+
+#navmenu {
+  grid-area: nav;
+}
+*/
 
 /* css for menu + recipes list */
 

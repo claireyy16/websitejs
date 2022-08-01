@@ -7,7 +7,7 @@
   display: grid;
   height: 100vh;
   grid-template-columns: 0.5fr 1fr 1fr 1fr;
-  grid-template-rows: 0.1fr 1.5fr 1.2fr 0.8fr;
+  grid-template-rows: 0.1fr 1.2fr 1.2fr 0.5fr;
   grid-template-areas:
 		"nav nav nav nav"
     "sidebar main main main"
@@ -21,24 +21,29 @@ nav {
   grid-area: nav;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
+	/*margin-top: 1em;
+	margin-bottom: 1em;*/
 }
 
 main {
-  background: #84ffff;
+  background: white;
+	border: grey;
+	border-style: solid;
+	border-width: 2px;
   grid-area: main;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 #sidebar {
-  background: #18ffff;
+  background: #d4ebf2;
   grid-area: sidebar;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 #content1 {
-  background: #6fffd2;
+  background: aqua;
   grid-area: content1;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
